@@ -12,6 +12,18 @@ All potential elements and functionalities are pushed from server to browser. PH
     				<label for="inputfieldldevice"Field title</label>
 				<select name="inputfieldlabelselectname" id="inputfieldlabelselectid"><option value="">Válassz...</option>Dropdown option 1, Dropdown option 2 etc</option></select>
 
+2. All other field configurations are also pushed to the server to be stored and then pull up as per js logic:
+
+a. type of inputfield select value:
+- string 
+- integer 
+
+b. whether inputfield value requires transformation:
+- string to integer (e.g. if "yes" then record integer value "1", if "then record integer value "2")
+
+c. whether any base value belongs to field (e.g. base fee of 100)
+
+d. what type of computation will field value be subject in order to produce next value (i.e. addition, subtraction, multiplication, division)
 
 
 !! NO AJAX --> reload prevention via js !!
