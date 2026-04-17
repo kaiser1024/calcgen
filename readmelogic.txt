@@ -1,4 +1,18 @@
-WHAT HAPPENS SERVER SIDE?
+I want to build a general calculator WP plugin.
+
+The idea is that all anticipated elements and functionalities are built into it, and one php array is used to customize for each instantation.
+
+All potential elements and functionalities are pushed from server to browser. PHP with the actual configuration is also pushed to browser. The manipulations are done on client side via js, js logic is hard coded.
+
+1. PHP pushes a general catchall template to browser as such:
+
+<form id="inputform">
+
+			<div id="inputfieldwrapper" display: block>
+    				<label for="inputfieldldevice"Field title</label>
+				<select name="inputfieldlabelselectname" id="inputfieldlabelselectid"><option value="">Válassz...</option>Dropdown option 1, Dropdown option 2 etc</option></select>
+
+
 
 !! NO AJAX --> reload prevention via js !!
 
